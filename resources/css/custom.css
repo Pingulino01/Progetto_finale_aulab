@@ -1,0 +1,198 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+
+
+
+.masthead{
+  height: 50vh;
+  min-height: 500px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/12/11/17/25/cyber-monday-3869345_960_720.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+ }
+
+
+.bg-text {
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+ 
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.provaBlur{
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.colori{
+  color:#AF2916;
+}
+
+.bar{
+  background-color: #063760;
+  border-bottom: 3px solid #ffffff;
+  
+}
+
+.btnNav{
+  background-color:#ffffff;
+  color: #063760;
+}
+
+.zIndex{
+  z-index: 99;
+
+}
+
+/* Linea orizzontale sezioni */
+
+.rowLine{
+
+  border-top: 2px solid black;
+
+}
+
+/* DROPDOWN BANDIERE*/
+.flagMenu{
+  width:60px !important;
+  min-width: 20px !important;
+  height: 100px;
+}
+
+.btnMenuFlag:hover{
+    opacity: 0.7;
+    
+}
+
+
+
+
+/*MEDIA QUERY DA ELIMINARE IN MOBILE*/
+@media only screen and (min-width: 768px) {
+  
+  /* EFFETTO SCALE*/
+  .zoom{
+    transition: 1s;
+  }
+
+  .form-create{
+    border-radius: 20px;
+    width: 50vw;
+    box-shadow: 1rem 1rem 0 0 #666 !important;
+    }
+  
+  .zoom:hover{
+    transform: scale(1.2);
+      z-index: 2;
+      
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  
+  .BtnAcc{
+    position: fixed;
+    
+    bottom: 3vh;
+    left: 20vw;
+  }
+
+
+  
+    
+
+  .BtnRej{
+    position: fixed;
+    bottom: 3vh;
+    left: 55vw;
+  }
+}
+  
+
+/* Dashboard CSS */
+.dashSearch{
+  border: #063760 solid 2px;
+  box-shadow: 0.5rem 0.5rem 0 0 #666;
+  border-radius: 10px;
+}
+
+.divtable{
+  background-color: white;
+  border-radius: 10px;
+  border: solid #063760 2px;
+  box-shadow: 0.5rem 0.5rem 0 0 #666;
+  padding-right: 22px ;
+}
+
+.form-create{
+  border-radius: 20px;
+  box-shadow: 1rem 1rem 0 0 #666 !important;
+}
+
+#Insert{
+  font-size: 50px;
+  background: -webkit-linear-gradient(#42abcb, #3971c0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* SHOW */
+
+.borderShow{
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+
+.imgcard{
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+}
+
+.myTim{
+  width: 15vw !important;
+  height: 12vh !important;
+}
+
+.corso{
+
+  
+  color: white;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+.aulabBanner{
+background-image: url(./../../storage/app/public/images/aulab.png);
+border: 2px solid black;
+height: 30vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.aulabDiscount{
+color: white;
+font-size: 23px;
+background-color: rgba(255, 255, 255, 0.42);
+text-shadow: 1px 1px black;
+}
+
+#aulab{
+  text-decoration: none;
+}
